@@ -11,6 +11,7 @@ const strings = {
   incorrectCombination: 'Incorrect username and password combination',
   aUser: 'admin',
   aPass: 'password123',
+  logout: 'Log out',
 };
 
 export default strings;

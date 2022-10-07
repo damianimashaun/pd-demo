@@ -3,16 +3,16 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 const AUTH_KEY = '@storage_auth';
 const KEYS_KEY = '@storage_key';
 const defaultKeys = {
-  1: '',
-  2: '',
-  3: '',
-  4: '',
-  5: '',
-  6: '',
-  7: '',
-  8: '',
-  9: '',
-  10: '',
+  1: 'off',
+  2: 'off',
+  3: 'off',
+  4: 'off',
+  5: 'off',
+  6: 'off',
+  7: 'off',
+  8: 'off',
+  9: 'off',
+  10: 'off',
 };
 
 const isLoggedIn = async () => {
