@@ -7,7 +7,7 @@ const OnboardingThree = () => {
   const { navigate } = useNavigation();
 
   const onPress = () => {
-    navigate('OnboardingOne');
+    navigate('Login');
   };
 
   return <Onboarding title={strings.onboardingThree} onNext={onPress} />;

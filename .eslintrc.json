@@ -10,7 +10,6 @@
         "airbnb/hooks",
         "prettier"
     ],
-    "overrides": [],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaFeatures": {
@@ -41,5 +40,16 @@
                 "namedComponents": "arrow-function"
             }
         ]
-    }
+    },
+    "overrides": [
+        {
+            "files": [
+                "*.ts",
+                "*.tsx"
+            ],
+            "rules": {
+                "no-undef": "off"
+            }
+        }
+    ]
 }
